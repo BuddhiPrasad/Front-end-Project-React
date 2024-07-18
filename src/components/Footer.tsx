@@ -36,7 +36,7 @@ const Footer = () => {
             
 
             <div>
-                <p className='pt-[56px] text-center text-[14px] font-medium'>© Copyright 2024. Your Site. All rights reserved.</p>
+                <p className='pt-[56px] text-center text-[14px] font-medium'>© Copyright 2024. Trip Pisso. All rights reserved.</p>
             </div>
             <div className='flex items-center justify-center gap-x-[56px] pt-[40px]'>
                 <Image src={facebook} alt='facebook'/>
