@@ -17,8 +17,9 @@ const MobileNav = () => {
         </SheetTrigger>
         <SheetContent>
           <div className="flex flex-col items-center justify-between h-full p-y-8">
+            <Image src={Logo} alt='Logo'/>
             <div className="flex flex-col items-center gap-y-6 pt-32">
-              <Image src={Logo} alt='Logo'/>
+              
               {HeaderLinks.map((item) =>(
                 <p>{item.title}</p>
                ))}
